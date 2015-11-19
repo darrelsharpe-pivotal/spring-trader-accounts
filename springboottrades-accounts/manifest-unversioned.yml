@@ -9,3 +9,4 @@ applications:
 - name: spring-trader-accounts
   path: ${path}accounts-${version}.jar
   services: [ traderdb, discovery-service, circuit-breaker-dashboard, config-server ]
+##
